@@ -121,11 +121,18 @@ body {
     border: 1px solid #D3D3D3;
     border-radius: 4px;
     height: 1.65rem;
+    padding-left: .5rem;
 }
 
 .field__input:focus {
     outline: none;
     border: 1px solid #0047AB;
+    box-shadow: 1px 1px 5px #A9A9A9 ;
+}
+
+.field__input:invalid {
+    outline: none;
+    border: 1px solid #FF3131;
     box-shadow: 1px 1px 5px #A9A9A9 ;
 }
 

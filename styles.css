@@ -73,37 +73,60 @@ body {
 }
 
 .message {
-    margin-top: 8.5rem;
+    margin-top: 6.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .message__text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    margin: 1.05rem 0;
 
-    width: 80%;
+    width: 70%;
 }
 
 .signin {
     background-color: white;
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .signin__title {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
+    margin-bottom: .9rem;
 }
 
 .signin__field {
     display: flex;
     flex-direction: column;
-
+    gap: .2rem;
 } 
 
-.field__input {
+.signin__button {
+    border: none;
+    background-color: #596D48;
+    font-weight: bold;
+    color: white;
+    width: 25%;
+    padding: .8rem 0;
+    border-radius: 7px;
 
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.field__input {
     border: 1px solid #D3D3D3;
     border-radius: 4px;
-    height: 1.5rem;
+    height: 1.65rem;
+}
+
+.field__input:focus {
+    outline: none;
+    border: 1px solid #0047AB;
+    box-shadow: 1px 1px 5px #A9A9A9 ;
 }
 
 .field__label {
@@ -124,4 +147,19 @@ body {
     flex-direction: column;
     width: 35%;
     gap: 10px;
+}
+
+.loging-text {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.loging-text > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
+}
+
+.loging-text > a:hover {
+    text-decoration: underline;
 }

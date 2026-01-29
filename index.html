@@ -47,21 +47,23 @@
                   />
                 </div>
                 <div class="signin__field">
-                  <label class="field__label" for="mail">Email</label>
+                  <label class="field__label" for="mail">Email *</label>
                   <input
                     class="field__input"
                     type="email"
                     id="mail"
                     name="mail"
+                    required
                   />
                 </div>
                 <div class="signin__field">
-                  <label class="field__label" for="password">Password</label>
+                  <label class="field__label" for="password">Password *</label>
                   <input
                     class="field__input"
                     type="password"
                     id="password"
                     name="password"
+                    required
                   />
                 </div>
               </div>
@@ -88,13 +90,14 @@
                 </div>
                 <div class="signin__field">
                   <label class="field__label" for="confirm_password"
-                    >Confirm password</label
+                    >Confirm password *</label
                   >
                   <input
                     class="field__input"
                     type="password"
                     id="confirm_password"
                     name="confirm_password"
+                    required
                   />
                 </div>
               </div>
@@ -103,11 +106,14 @@
         </div>
 
         <div class="container">
-          <button type="submit">Create Account</button>
+          <button class="signin__button" type="submit">Create Account</button>
         </div>
-        
+
       </form>
-      <p>Already have an account? <a href="">Log in</a></p>
+
+      <div class="container">
+          <p class="loging-text">Already have an account? <a href="">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>

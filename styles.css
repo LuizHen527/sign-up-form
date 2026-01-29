@@ -1,13 +1,9 @@
 *,
-*::after,
-*::before {
+*:after,
+*:before {
     padding: 0;
-    border: 0;
+    margin: 0;
     box-sizing: border-box;
-}
-
-:root {
-
 }
 
 @font-face {
@@ -21,6 +17,18 @@ img {
 
 body {
     display: flex;
+    justify-content: end;
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
 }
 
 .banner {
@@ -29,7 +37,7 @@ body {
     height: 100vh;
     width: 35%; */
     background-size: cover;
-    position: fixed; 
+    position: absolute; 
     top: 0; 
     left: 0; 
         
@@ -58,4 +66,62 @@ body {
     color: white;
     font-size: 5rem;
     margin: auto 0;
+}
+
+.content {
+    width: 65%;
+}
+
+.message {
+    margin-top: 8.5rem;
+}
+
+.message__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+    width: 80%;
+}
+
+.signin {
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.signin__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+.signin__field {
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.field__input {
+
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    height: 1.5rem;
+}
+
+.field__label {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+}
+
+.field-container {
+    width: 100%;
+    gap: 10%;
+}
+
+.field-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 10px;
 }

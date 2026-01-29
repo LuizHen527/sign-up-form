@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="banner">
@@ -14,46 +20,94 @@
       </div>
     </div>
 
-    <div>
-      <section>
-        <div>
-          <p>
-            This is a real online service! You know you need something like this
-            in your life to help you realize your deepest dreams. <br />
-            Sign up <em>now</em> to get started.
-          </p>
-          <p>You know you want to.</p>
-        </div>
+    <div class="content">
+      <section class="message container">
+        <p class="message__text">
+          This is a real online service! You know you need something like this
+          in your life to help you realize your deepest dreams. <br />
+          Sign up <em>now</em> to get started.
+        </p>
+        <p class="message__text">You know you want to.</p>
       </section>
-      <main>
-        <p>Let's do this!</p>
-
-        <form action="">
-          <div>
-            <label for="first_name">First name</label>
-            <input type="text" id="first_name" name="first_name" />
-
-            <label for="mail">Email</label>
-            <input type="email" id="mail" name="mail" />
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" />
+      <form action="">
+        <div class="signin">
+          <div class="container">
+            <p class="signin__title">Let's do this!</p>
+            <div class="field-container row">
+              <div>
+                <div class="signin__field">
+                  <label class="field__label" for="first_name"
+                    >First name</label
+                  >
+                  <input
+                    class="field__input"
+                    type="text"
+                    id="first_name"
+                    name="first_name"
+                  />
+                </div>
+                <div class="signin__field">
+                  <label class="field__label" for="mail">Email</label>
+                  <input
+                    class="field__input"
+                    type="email"
+                    id="mail"
+                    name="mail"
+                  />
+                </div>
+                <div class="signin__field">
+                  <label class="field__label" for="password">Password</label>
+                  <input
+                    class="field__input"
+                    type="password"
+                    id="password"
+                    name="password"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="signin__field">
+                  <label class="field__label" for="last_name">Last name</label>
+                  <input
+                    class="field__input"
+                    type="text"
+                    id="last_name"
+                    name="last_name"
+                  />
+                </div>
+                <div class="signin__field">
+                  <label class="field__label" for="phone_number"
+                    >Phone number</label
+                  >
+                  <input
+                    class="field__input"
+                    type="tel"
+                    id="phone_number"
+                    name="phone_number"
+                  />
+                </div>
+                <div class="signin__field">
+                  <label class="field__label" for="confirm_password"
+                    >Confirm password</label
+                  >
+                  <input
+                    class="field__input"
+                    type="password"
+                    id="confirm_password"
+                    name="confirm_password"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <label for="last_name">Last name</label>
-            <input type="text" id="last_name" name="last_name" />
-            <label for="phone_number">Phone number</label>
-            <input type="tel" id="phone_number" name="phone_number" />
-            <label for="confirm_password">Confirm password</label>
-            <input
-              type="password"
-              id="confirm_password"
-              name="confirm_password"
-            />
-          </div>
+        </div>
+
+        <div class="container">
           <button type="submit">Create Account</button>
-        </form>
-        <p>Already have an account? <a href="">Log in</a></p>
-      </main>
+        </div>
+        
+      </form>
+      <p>Already have an account? <a href="">Log in</a></p>
     </div>
   </body>
 </html>

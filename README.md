@@ -1,6 +1,6 @@
 # Odin Project - Calculator
 
-This is a project made to the [Odin Project Foundations Path](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). Status: Completed.
+This is a project made to the [Odin Project Intermediate HTML and CSS Course](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). Status: Completed.
 
 ## Screenshot
 

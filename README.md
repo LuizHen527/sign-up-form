@@ -1,6 +1,6 @@
 # Odin Project - Sign Up Form
 
-This is a project made to the [Odin Project Intermediate HTML and CSS Course](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). Status: Completed.
+This is a project made in the [Odin Project Intermediate HTML and CSS Course](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). Status: Completed.
 
 ## Screenshot
 
@@ -8,7 +8,7 @@ This is a project made to the [Odin Project Intermediate HTML and CSS Course](ht
 
 ## About
 
-This is a sign up form page. Made to practice how structure and style a HTML form. I used just HTML and CSS for this project.
+This is a sign up form page. Made to practice the structure and style a HTML form. I used just HTML and CSS for this project.
 
 ## Links
 
